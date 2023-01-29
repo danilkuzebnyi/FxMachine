@@ -1,0 +1,16 @@
+Úlohou projektu je doimplementovať rôzne funkcionality ako odosielanie get a post https requestov asynchrónne.
+Výsledok requestu sa má zobrazovať v novom okne s vlastnou fxml scénou.
+
+Úlohy:
+    - doplniť chýbajúce komponenty potrebné k odosielaniu get/post requestov
+    - doplniť chýbajúcu fxml scénu a prislúchajúci controller k zobrazovaniu výsledkov
+    - doimplementovať RestApiAgent
+    - odosielať get/post https requesty
+    - v post requeste odosielať ľubovoľný json, zadá užívateľ do vstupného poľa
+    - navrhnuť potencionálne zmneny/vylepšenia aplikácie. Možnosť použiť komentáre v kóde/osobitný textový súbor.
+
+Odporúčania:
+    - použiť okhttp knižnicu nachádzajúcu sa v pom súbore
+    - naplno využiť multithreading spolu so zobrazením nejakého progressbaru/indikátoru aby okno nezamrzlo
+    - nájsť a použiť ľubovoľný echo https server (napr. postman-echo.com)
+    - vhodne odchytiť a naimplementovať chybové stavy, možnosť použiť nakonfigurovanú knižnicu log4j

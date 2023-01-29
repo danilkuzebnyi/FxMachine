@@ -1,0 +1,16 @@
+The aim of this project is to finish implementing different functionalities such as sending asynchronous get and post https requests.
+The result of the request should be displayed in new window with it's own fxml scene.
+
+Tasks:
+    - add missing components used for sending get/post requests
+    - add missing fxml scene and corresponding controller used for displaying the result
+    - finish implementing RestApiAgent
+    - send get/post https requests
+    - in post request send arbitrary json, user will fill data in field
+    - come up with potential changes/improvements for the application. It is allowed to add comments to code or to separate text file.
+
+Advice:
+    - use okhttp library located in pom file
+    - fully utilize multithreading along with the display of progressbar/indicator so the window doesn't freeze
+    - find and use arbitrary echo https server (for example postman-echo.com)
+    - properly catch and implement exception states, it is allowed to use pre-configured library log4j
