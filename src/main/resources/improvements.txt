@@ -1,0 +1,5 @@
+- When making a POST request, clear the text of the previous request, show the progress bar of the new request.
+  When the answer is ready, remove the indicator and display a new response.
+- When the application starts, show a welcome window with brief information about the project.
+- The entire history of responses can be stored in a separate table.
+  If you want to see this table, you can click the "Show History" button in the result window and a new table window will open.
